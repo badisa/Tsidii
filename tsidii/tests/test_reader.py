@@ -37,7 +37,8 @@ class TestReaderCollection(TestCase):
                 first_name="Gideon",
                 last_name="Gleeful",
                 email="tentoftelepathy@example.com",
-                groups="tent-of-telepathy")
+                groups="tent-of-telepathy"
+            )
 
     def test_invalid_indentifier(self):
         readers = ReaderCollection()
